@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    background: linear-gradient(90deg, #4CAF50, #66BB6A);
+    color: white;
+    padding: 25px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 35px 25px;
+    margin: 25px auto;
+    max-width: 900px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    margin-bottom: 20px;
+    color: #2E7D32;
+    font-size: 1.5rem;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.instagram-profile-link {
+    color: #2E7D32;
+    font-weight: bold;
+}
+
+.instagram-button {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 12px 18px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.instagram-button:hover,
+.instagram-button:focus-visible {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(131, 58, 180, 0.35);
+}
+
+footer {
+    background-color: #336;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
+.address {
+    margin-top: 28px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+.address h3 {
+    color: #2E7D32;
+    margin-bottom: 8px;
+}
+.address a {
+    color: #2E7D32;
+    font-weight: bold;
+}
