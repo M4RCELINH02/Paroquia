@@ -11,28 +11,54 @@ body {
     line-height: 1.6;
 }
 header {
-    background: linear-gradient(90deg, #4CAF50, #66BB6A);
-    color: white;
-    padding: 25px 0;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    background-color: #f7f1df;
+    color: #1f5c3a;
+    padding: 25px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.logo {
+    display: flex;
+    flex-direction: column;
 }
 
+.logo-titulo {
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.logo-nome {
+    font-family: 'Georgia', serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.logo-local {
+    font-size: 0.7rem;
+    letter-spacing: 1.5px;
+    margin-top: 4px;
+}
 header h1 {
     margin-bottom: 10px;
     font-size: 2rem;
 }
 
 header nav a {
-    color: white;
+    color: #1f5c3a;
     text-decoration: none;
-    margin: 0 20px;
-    font-weight: bold;
-    font-size: 1.1rem;
+    margin-left: 24px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: color 0.2s ease;
 }
 
 header nav a:hover {
-    text-decoration: underline;
+    color: #b08d35;
 }
 section {
     padding: 35px 25px;
