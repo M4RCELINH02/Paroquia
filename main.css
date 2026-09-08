@@ -68,7 +68,15 @@ section {
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
-
+#inicio{
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:#f7f1df;
+}
 section h2 {
     margin-bottom: 20px;
     color: #2E7D32;
