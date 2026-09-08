@@ -106,12 +106,13 @@ section {
 }
 .inicio-botao {
     display: inline-block;
-    padding: 12px 22px;
+    padding: 14px 26px;
     background-color: #1f5c3a;
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     border-radius: 8px;
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 1rem;
     transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
