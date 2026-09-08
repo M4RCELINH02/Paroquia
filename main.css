@@ -69,16 +69,18 @@ section {
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 #inicio{
-    min-height: 500px;
+    min-height: 380px;
+    max-width: calc(100% - 80px);
+    margin: 20px auto;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    text-align: center;
+    text-align: left;
     background-color:#f7f1df;
+    padding: 50px;
 }
 .inicio-conteudo {
-    max-width: 650px;
+    max-width: 750px;
     padding: 20px;
 }
 
