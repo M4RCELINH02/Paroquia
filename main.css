@@ -77,6 +77,38 @@ section {
     text-align: center;
     background-color:#f7f1df;
 }
+.inicio-conteudo {
+    max-width: 650px;
+    padding: 20px;
+}
+
+.inicio-conteudo h1 {
+    font-family: 'Georgia', serif;
+    font-size: 3rem;
+    color:#1f5c3a;
+    margin-bottom: 12px;
+}
+
+.inicio-conteudo p {
+    font-size: 1.15rem;
+    color: #555;
+    margin-bottom: 24px;
+}
+.inicio-botao {
+    display: inline-block;
+    padding: 12px 22px;
+    background-color: #1f5c3a;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.inicio-botao:hover {
+   background-color: #b08d35;
+   transform: translateY(-2px);
+}
 section h2 {
     margin-bottom: 20px;
     color: #2E7D32;
