@@ -14,9 +14,9 @@ header {
     background-color: #1f5c3a;
     color: #ffffff;
     padding: 25px 40px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
     align-items: center;
-    justify-content: space-between;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 .logo {
@@ -43,6 +43,13 @@ header {
     letter-spacing: 1.5px;
     margin-top: 4px;
 }
+header nav {
+    grid-column: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
 header h1 {
     margin-bottom: 10px;
     font-size: 2rem;
@@ -51,7 +58,6 @@ header h1 {
 header nav a {
     color: #ffffff;
     text-decoration: none;
-    margin-left: 24px;
     font-weight: 600;
     font-size: 0.95rem;
     transition: color 0.2s ease;
