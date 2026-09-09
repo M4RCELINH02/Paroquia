@@ -66,6 +66,46 @@ header nav a {
 header nav a:hover {
     color: #b08d35;
 }
+.header-acoes{
+    grid-column: 3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header-acoes a {
+    width: 42px;
+    height: 42px;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-decoration: none;
+    transition:all
+}
+.header-acoes svg {
+    width: 22px;
+    height: 22px;
+    fill:none;
+    stroke:currentColor;
+    stroke-width:2;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+}
+.header-acoes svg rect {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+}
+.header-acoes svg circle:last-child {
+    fill: currentColor;
+    stroke: none;
+}
+.header-acoes a:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+    transform: translateY(-2px);
+}
 section {
     padding: 35px 25px;
     margin: 25px auto;
