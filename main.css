@@ -185,7 +185,79 @@ section h2 {
     color: #2E7D32;
     font-size: 1.5rem;
 }
-
+.info-principal {
+    max-width: calc(100% - 80px);
+    margin: 30px auto;
+    padding: 0;
+    background-color: transparent;
+    box-shadow: none;
+}
+.info-card {
+    background-color: #ffffff;
+    border-radius: 14px;
+    padding: 30px;
+    border: 1px solid rgba(31, 92, 58, 0.12);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.info-etiqueta {
+    display:inline-block;
+    color: #1f5c3a;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+.info-card h2 {
+    font-family: 'Georgia', serif;
+    color: #1f5c3a;
+    font-size: 2rem;
+    margin: 0 0 12px;
+}
+.info-data {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+}
+.info-card p {
+    color: #555;
+    margin: 8px 0;
+}
+.info-card strong {
+    color: #333;
+}
+.santo-link {
+    display: inline-block;
+    margin: 2px 0 14px;
+    color:#1f5c3a;
+    font-weight: 600;
+    text-decoration: none;
+}
+.santo-link:hover {
+    text-decoration: underline;
+}
+.agenda-cabecalho {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.agenda-etiqueta {
+    display: inline-block;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    color: #1f5c3a;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.agenda-cabecalho h2 {
+    font-family: 'Georgia', serif;
+    color: #1f5c3a;
+    font-size: 2.2rem;
+    margin: 0 0 8px;
+}
+.agenda-cabecalho p {
+    color: #666;
+    margin: 0;
+    font-size: 1rem;
+}
 ul {
     list-style-type: none;
     padding-left: 0;
