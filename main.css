@@ -78,16 +78,30 @@ section {
     min-height: 380px;
     max-width: calc(100% - 80px);
     margin: 20px auto;
+    position: relative;
+    overflow: hidden;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     text-align: left;
     background-color:#f7f1df;
     padding: 50px;
 }
 .inicio-conteudo {
+    width: 45%;
     max-width: 750px;
     padding: 20px;
+    position: relative;
+    z-index: 2;
+}
+.inicio-igreja {
+    position: absolute;
+    right: -20px;
+    top: 0;
+    width: 72%;
+    height: 105%;
+    object-fit: cover;
+    object-position: 85% center;
+    mix-blend-mode: multiply;
 }
 .inicio-bem-vindo {
     font-size: 3rem;
