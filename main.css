@@ -442,3 +442,58 @@ footer {
     color: #2E7D32;
     font-weight: bold;
 }
+.instagram-section{
+    max-width: calc(100% - 80px);
+    margin: 30px auto;
+    padding: 45px 50px;
+    background-color: #f7f1df;
+    border-radius: 14px;
+    border: 1px solid rgba(31, 92, 58, 0.12);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    text-align: center;
+}
+
+.instagram-conteudo {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.instagram-etiqueta {
+    display: inline-block;
+    color: #1f5c3a;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    margin-bottom: 8px;
+}
+
+.instagram-section h2 {
+    font-family: 'Georgia', serif;
+    color: #1f5c3a;
+    font-size: 2rem;
+    margin: 0 0 8px;
+}
+
+.instagram-section p {
+    color: #666;
+    font-size: 1rem;
+    margin: 0 0 22px;
+}
+
+.instagram-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+    background-color: #1f5c3a;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.instagram-link:hover {
+    background-color: #b08d35;
+    transform: translateY(-2px);
+}
