@@ -422,12 +422,93 @@ ul li {
 }
 
 footer {
-    background-color: #336;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 40px;
+    background-color: #1f5c3a;
+    color: #ffffff;
+    margin-top: 30px;
+    padding: 45px 50px 20px;
+}
+
+.rodape-conteudo {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1.2fr 1.2fr;
+    gap: 50px;
+}
+
+.rodape-coluna h3 {
+    margin: 0 0 18px;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.rodape-coluna p {
+    margin: 8px 0;
+    color: rgba(255, 255, 255, 0.88);
     font-size: 0.9rem;
+}
+
+.rodape-logo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 14px;
+}
+
+.rodape-logo-titulo {
+    font-size: 0.8rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.rodape-logo-nome {
+    font-family: 'Georgia', serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.rodape-logo-local {
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    margin-top: 4px;
+}
+
+.rodape-identidade > p {
+    max-width: 300px;
+}
+
+.rodape-links {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 9px 35px;
+}
+
+.rodape-links a {
+    color: rgba(255, 255, 255, 0.88);
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.rodape-links a:hover {
+    color: #ffffff;
+}
+
+.rodape-linha {
+    max-width: 1400px;
+    height: 1px;
+    margin: 30px auto 16px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.rodape-copyright {
+    text-align: center;
+}
+
+.rodape-copyright p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 0.8rem;
 }
 .address {
     margin-top: 28px;
