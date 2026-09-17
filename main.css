@@ -585,55 +585,55 @@ footer {
         gap: 15px;
     }
        #inicio {
-        display: flex;
-        flex-direction: column;
-        align-items: stretch;
-        min-height: auto;
-        max-width: calc(100% - 30px);
-        margin: 15px auto;
-        padding: 28px 22px 0;
-    }
+       display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    min-height: auto;
+    max-width: calc(100% - 30px);
+    margin: 15px auto;
+    padding: 28px 22px 0;
+}
 
-    .inicio-conteudo {
-        width: 100%;
-        max-width: none;
-        padding: 0;
-        position: relative;
-        z-index: 2;
-    }
+.inicio-conteudo {
+    width: 100%;
+    max-width: none;
+    padding: 0;
+    position: relative;
+    z-index: 2;
+}
 
-    .inicio-bem-vindo {
-        font-size: 2.3rem;
-    }
+.inicio-bem-vindo {
+    font-size: 2.3rem;
+}
 
-    .inicio-conteudo h1 {
-        font-size: 2.6rem;
-        margin-top: 6px;
-        margin-bottom: 14px;
-    }
+.inicio-conteudo h1 {
+    font-size: 2.6rem;
+    margin-top: 6px;
+    margin-bottom: 14px;
+}
 
-    .inicio-conteudo p {
-        font-size: 1rem;
-        margin-bottom: 18px;
-    }
+.inicio-conteudo p {
+    font-size: 1rem;
+    margin-bottom: 18px;
+}
 
-    .inicio-botao {
-        padding: 12px 20px;
-        font-size: 0.9rem;
-    }
+.inicio-botao {
+    padding: 12px 20px;
+    font-size: 0.9rem;
+}
 
-    .inicio-igreja {
-        position: static !important;
-        right: auto !important;
-        top: auto !important;
-        width: 100% !important;
-        height: auto !important;
-        max-height: none !important;
-        object-fit: contain !important;
-        object-position: center !important;
-        margin: 20px 0 0;
-        display: block;
-        z-index: 1;
+.inicio-igreja {
+    position: static !important;
+    right: auto !important;
+    top: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    object-fit: contain !important;
+    object-position: center !important;
+    margin: 20px 0 0;
+    display: block;
+    z-index: 1;
     }
 
     .logo-nome {
