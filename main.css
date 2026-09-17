@@ -597,13 +597,15 @@ footer {
     }
 
     .inicio-igreja {
-        position: relative;
-        right: auto;
-        top: auto;
-        width: 100%;
-        height: auto;
-        object-fit: contain;
-        margin-top: 15px;
+       position: relative;
+    right: auto;
+    top: auto;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+    margin-top: 20px;
+    display: block;
     }
     .logo-nome {
         font-size: 1.35rem;
