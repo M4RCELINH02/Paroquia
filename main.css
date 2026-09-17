@@ -584,7 +584,27 @@ footer {
         padding: 18px 20px;
         gap: 15px;
     }
+    #inicio {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 30px 22px;
+    }
 
+    .inicio-conteudo {
+        width: 100%;
+        max-width: none;
+        padding: 10px 0;
+    }
+
+    .inicio-igreja {
+        position: relative;
+        right: auto;
+        top: auto;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        margin-top: 15px;
+    }
     .logo-nome {
         font-size: 1.35rem;
     }
