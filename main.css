@@ -579,24 +579,21 @@ footer {
     transform: translateY(-2px);
 }
 @media (max-width: 768px) {
+
+   html,
+    body {
+        width: 100%;
+        min-width: 0;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
     header {
+        width: 100%;
         grid-template-columns: 1fr auto;
         padding: 18px 20px;
         gap: 15px;
-    }
-
-    .logo-nome {
-        font-size: 1.35rem;
-    }
-
-    .logo-titulo {
-        font-size: 0.72rem;
-        letter-spacing: 1.5px;
-    }
-
-    .logo-local {
-        font-size: 0.62rem;
-        letter-spacing: 1px;
     }
 
     header nav {
@@ -610,7 +607,6 @@ footer {
     }
 
     header nav a {
-        font-size: 0.82rem;
         white-space: nowrap;
     }
 
@@ -619,13 +615,92 @@ footer {
         grid-row: 1;
     }
 
-    .header-acoes a {
-        width: 38px;
-        height: 38px;
+    #inicio {
+        width: calc(100% - 30px);
+        max-width: none;
+        min-height: auto;
+        margin: 15px auto;
+        padding: 28px 22px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
     }
 
-    .header-acoes svg {
-        width: 20px;
-        height: 20px;
+    .inicio-conteudo {
+        width: 100%;
+        max-width: none;
+        padding: 0;
+    }
+
+    .inicio-bem-vindo {
+        font-size: 2rem;
+    }
+
+    .inicio-conteudo h1 {
+        font-size: 2.2rem;
+    }
+
+    .inicio-conteudo p {
+        font-size: 0.95rem;
+    }
+
+    .inicio-igreja {
+        position: static;
+        width: 100%;
+        height: auto;
+        max-height: none;
+        margin-top: 20px;
+        object-fit: contain;
+        object-position: center;
+        mix-blend-mode: multiply;
+        display: block;
+    }
+
+    .info-principal {
+        width: calc(100% - 30px);
+        max-width: none;
+        margin: 15px auto;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .info-card {
+        width: 100%;
+        min-height: auto;
+        padding: 22px;
+    }
+
+    .acesso-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #avisos,
+    #noticias,
+    #comunidades,
+    #contato,
+    .instagram-section {
+        width: calc(100% - 30px);
+        max-width: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .instagram-section {
+        padding: 32px 22px;
+    }
+
+    .instagram-section h2 {
+        font-size: 1.6rem;
+    }
+
+    .rodape-conteudo {
+        grid-template-columns: 1fr;
+        padding: 40px 22px;
+    }
+
+    footer {
+        width: 100%;
     }
 }
