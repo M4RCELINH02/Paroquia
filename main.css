@@ -13,7 +13,7 @@ body {
 header {
     background-color: #1f5c3a;
     color: #ffffff;
-    padding: 25px 40px;
+    padding: 20px 40px;
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     align-items: center;
@@ -82,7 +82,7 @@ header nav a:hover {
     justify-content: center;
     color: #ffffff;
     text-decoration: none;
-    transition:all
+    transition:all 0.2s ease;
 }
 .header-acoes svg {
     width: 22px;
@@ -115,30 +115,30 @@ section {
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 #inicio{
-    min-height: 380px;
+    min-height: 360px;
     max-width: calc(100% - 80px);
-    margin: 20px auto;
+    margin: 20px auto 35px;
     position: relative;
     overflow: hidden;
     display: flex;
     align-items: center;
     text-align: left;
     background-color:#f7f1df;
-    padding: 50px;
+    padding: 55px 65px;
+    border-radius: 14px;
 }
 .inicio-conteudo {
-    width: 45%;
-    max-width: 750px;
-    padding: 20px;
-    position: relative;
-    z-index: 2;
+    width: 48%;
+    max-width: 760px;
+    padding: 10px 20px;
+   
 }
 .inicio-igreja {
     position: absolute;
-    right: -20px;
-    top: 0;
-    width: 72%;
-    height: 105%;
+    right: -35px;
+    top: -5%;
+    width: 68%;
+    height: 110%;
     object-fit: cover;
     object-position: 85% center;
     mix-blend-mode: multiply;
@@ -187,7 +187,7 @@ section h2 {
 }
 .info-principal {
     max-width: calc(100% - 80px);
-    margin: 30px auto;
+    margin: 35px auto;
     padding: 0;
     background-color: transparent;
     box-shadow: none;
@@ -199,11 +199,13 @@ section h2 {
 }
 .info-card {
     background-color: #ffffff;
-    border-radius: 14px;
-    padding: 28px;
-    border: 1px solid rgba(31, 92, 58, 0.12);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border: 1px solid rgba(31, 92, 58, 0.10);
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 8px 24px rgba(31, 92, 58, 0.08);
     min-height: 320px;
+    display: flex;
+    flex-direction: column;
 }
 .info-etiqueta {
     display:inline-block;
@@ -389,12 +391,11 @@ section h2 {
     font-size: 1rem;
 }
 #agenda {
-    width: calc(100% - 80px);
-     max-width: 1200px;
-    margin: 40px auto;
-    padding: 55px 50px;
-    background-color: #f7f1df;
-    border-radius: 14px;
+    width: calc(100% - 30px);
+     max-width: none;
+    margin: 15px auto;
+    padding: 35px 50px;
+    
 }
 
 .agenda-lista {
