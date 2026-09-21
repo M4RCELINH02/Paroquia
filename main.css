@@ -388,6 +388,74 @@ section h2 {
     margin: 0;
     font-size: 1rem;
 }
+#agenda {
+    width: calc(100% - 80px);
+     max-width: 1200px;
+    margin: 40px auto;
+    padding: 55px 50px;
+    background-color: #f7f1df;
+    border-radius: 14px;
+}
+
+.agenda-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.agenda-item {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 24px 28px;
+    border: 1px solid #e8e8e8;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+}
+
+.agenda-dia {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.agenda-dia span {
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    color: #1f5c3a;
+    font-weight: 700;
+}
+
+.agenda-dia strong {
+    font-family: 'Georgia', serif;
+    color: #1f5c3a;
+    font-size: 1.35rem;
+    font-weight: 500;
+}
+
+.agenda-horarios {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+
+.agenda-horarios div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.agenda-horarios strong {
+    color: #1f5c3a;
+    font-size: 1.35rem;
+    font-weight: 600;
+}
+
+.agenda-horarios span {
+    color: #666;
+    font-size: 0.9rem;
+}
 ul {
     list-style-type: none;
     padding-left: 0;
